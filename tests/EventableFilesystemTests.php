@@ -10,7 +10,6 @@ class EventableFilesystemTests extends PHPUnit_Framework_TestCase
     {
         $types = [
             'adapter' => 'League\\Flysystem\\AdapterInterface',
-            'cache' => 'League\\Flysystem\\CacheInterface',
             'filesystem' => 'League\\Flysystem\\FilesystemInterface',
         ];
 
