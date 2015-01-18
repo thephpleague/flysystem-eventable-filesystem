@@ -5,9 +5,9 @@ namespace League\Flysystem\EventableFilesystem;
 use League\Event\Emitter;
 use League\Event\EmitterTrait;
 use League\Flysystem\AdapterInterface;
-use League\Flysystem\Filesystem;
 use League\Flysystem\EventableFilesystem\Event\After as AfterEvent;
 use League\Flysystem\EventableFilesystem\Event\Before as BeforeEvent;
+use League\Flysystem\Filesystem;
 use League\Flysystem\Handler;
 use League\Flysystem\PluginInterface;
 

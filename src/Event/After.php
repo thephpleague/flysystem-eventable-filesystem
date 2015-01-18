@@ -113,9 +113,9 @@ class After extends AbstractEvent
      *
      * @param string $key argument key
      *
-     * @return mixed
-     *
      * @throws ErrorException
+     *
+     * @return mixed
      */
     public function getArgument($key)
     {
