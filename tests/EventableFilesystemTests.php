@@ -9,7 +9,7 @@ class EventableFilesystemTests extends PHPUnit_Framework_TestCase
     public function getMockeryMock($type)
     {
         $types = [
-            'adapter' => 'League\\Flysystem\\AdapterInterface',
+            'adapter'    => 'League\\Flysystem\\AdapterInterface',
             'filesystem' => 'League\\Flysystem\\FilesystemInterface',
         ];
 
