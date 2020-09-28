@@ -428,7 +428,7 @@ class EventableFilesystem extends Filesystem
     protected function callFilesystemMethod($method, array $arguments)
     {
         $callable = 'parent::'.$method;
-        $result = call_user_func_array($callable, $arguments);
+        $result = call_user_func_array($callable, array_values($arguments));
 
         return $result;
     }
